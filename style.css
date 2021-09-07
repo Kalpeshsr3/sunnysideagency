@@ -14,8 +14,7 @@ img{
 header{
 	
 	min-height:100vh;
-	background-image:url('../sunnyside agency/images/icon-arrow-down.svg'),
-	url('../sunnyside agency/images/desktop/image-header.jpg');
+	background-image:url('icon-arrow-down.svg'),url('image-header.jpg');
 	background-size:30px,cover;
 	background-position:center,center;
 	background-repeat:no-repeat;
@@ -177,7 +176,7 @@ nav{
 	grid-row:3;
     width:100%;
 	height:500px;
-	background:url('../sunnyside agency/images/desktop/image-graphic-design.jpg');
+	background:url('image-graphic-design.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -210,7 +209,7 @@ nav{
 	grid-row:3;
 	width:100%;
 	
-	background:url('../sunnyside agency/images/desktop/image-photography.jpg');
+	background:url('image-photography.jpg');
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
@@ -507,8 +506,8 @@ header {
 @media only screen and (min-width:320px) and (max-width:599px){
 	header{
 	min-height:100vh;
-	background-image:url('../sunnyside agency/images/icon-arrow-down.svg'),
-	url('../sunnyside agency/images/desktop/image-header.jpg');
+	background-image:url('icon-arrow-down.svg'),
+	url('image-header.jpg');
 	background-size:30px,cover;
 	background-position:center,center;
 	background-repeat:no-repeat;
@@ -528,7 +527,7 @@ header {
 
 .togglebtn{
 	position:relative;
-	background-image:url('../sunnyside agency/images/icon-hamburger.svg');
+	background-image:url('icon-hamburger.svg');
     width:25px;
     height:22px;
     background-size:25px;
@@ -538,7 +537,7 @@ header {
 	cursor:pointer;
 	}
 .togglebtn.active{
-	background:url('../sunnyside agency/images/icon-hamburger.svg');
+	background:url('icon-hamburger.svg');
 	background-size:25px;
 	background-position:center;
 	background-repeat:no-repeat;
