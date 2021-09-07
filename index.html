@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet" href="../sunnyside agency/style.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+	 <div class="container head_sec">
+	 <nav class="main_nav">
+	  <a href="#" class="logo"><img src="../sunnyside agency/images/logo.svg" 
+	  class="mylogo"></a>
+	  <div class="togglebtn" onclick="togglebtn();"></div>
+	  <ul class="head_menu" id="navList">
+	  <li><a href="#about">About</a></li>
+	  <li><a href="#ourclients">Clients</a></li>
+	  <li><a href="#projects">Projects</a></li>
+	  <li><a href="#contact">Contact</a></li>
+	  </ul>
+	 </nav>
+	 <div class="center_heading container">
+	 <p>we are creatives</p>
+	 </div>
+	 
+	 </div>
+	</header>
+	
+	
+	
+	<section class="container2" id="about">
+	
+	  <div class="about">
+	   
+	   <div class="about1">
+	    <h1>Transform your</br>brand</h1>
+		<p>We are a full-service creative agency specializing in helping brands
+		grow fast.<br>Engage your clients through compelling visuals that do most 
+		of the marketing for you.
+		</p>
+		<a href="#">Learn More</a>
+	   </div>
+	   
+	   <div class="about2">
+	   <img src="../sunnyside agency/images/desktop/image-transform.jpg">
+	   </div>
+	   
+	   <div class="about3">
+	   <img src="../sunnyside agency/images/desktop/image-stand-out.jpg">
+	   </div>
+	   
+	   <div class="about4">
+	   <h1>Stand out to the right</br>audience</h1>
+	   <p>Using collaborative formula of designers,researchers,photographer,
+	   videographer and copywriters.<br/>We will build and extend your brand into
+	   digital places.</p>
+		
+		<a href="#">Learn More</a>
+	   </div>
+	   <div class="about5">
+	   <h1>Graphics Design</h1>
+	   <p>Great design makes you memorable.We deliver artwork that underscores your
+	   brand message and captures your potential client's attention.
+	   </p>
+	   </div>
+	   <div class="about6">
+	   <h1>Photography</h1>
+	   <p>Increase your credibility by getting the most stunning,high quality 
+	   photos that improve your business image.
+	   </p>
+	   </div>
+	   </div>
+	
+	</section>
+	
+	<section class="container testimonial" id="ourclients">
+	 <h1 class="testi_head">client testimonials</h1>
+	 <div class="grid_testimonial">
+	  <div class="testi1 test">
+	   <img src="../sunnyside agency/images/image-emily.jpg" class="profile_img">
+	   <p>We put our trust in Sunnyside and they delivered,making sure our needs
+	   were met and deadlines were always hit.
+	   </p>
+	   <h1>Emily R.</h1>
+	   <p>Marketing Director</p>
+	  </div>
+	  
+	  <div class="testi2 test">
+	   <img src="../sunnyside agency/images/image-thomas.jpg" class="profile_img">
+	   <p>Sunnyside enthusiasm coupled with their keen interest in our brands 
+	   success made it a satisfying and enjoyable experience.
+	   </p>
+	   <h1>Thomas J.</h1>
+	   <p>Chief Operator</p>
+	  </div>
+	  
+	  <div class="testi3 test">
+	   <img src="../sunnyside agency/images/image-jennie.jpg" class="profile_img">
+	   <p>Incredible end results! Our sales increased over 400% when we worked
+	   with Sunnyside.Highly recommended!
+	   </p>
+	   <h1>Jennie F.</h1>
+	   <p>Business Owner</p>
+	  </div>
+	  </div>
+	</section>
+	
+	<section class="container2" id="projects">
+	 <div class="grid_gallery">
+	 
+	  <div class="gallery1">
+<img src="../sunnyside agency/images/desktop/image-gallery-cone.jpg" class="gall_img">
+	  </div>
+	  <div class="gallery2">
+	  <img src="../sunnyside agency/images/desktop/image-gallery-orange.jpg" class="gall_img">
+	   
+	  </div>
+	  <div class="gallery3">
+	   <img src="../sunnyside agency/images/desktop/image-gallery-milkbottles.jpg" class="gall_img">
+	  </div>
+	  <div class="gallery4">
+	   <img src="../sunnyside agency/images/desktop/image-gallery-sugarcubes.jpg" class="gall_img">
+	  </div>
+	  
+	 </div>
+	</section>
+	
+	<footer id="contact">
+	 <div class="container2 grid_footer">
+	 <nav>
+<a href="#" class="footer_logo"><img src="../sunnyside agency/images/logo.svg"></a>
+<ul class="footer_menu">
+ <li><a href="#about">About</a></li>
+ <li><a href="#projects">Product</a></li>
+ <li><a href="#ourclients">Clients</a></li>
+</ul>
+<ul class="footer_social">
+<li><a href="#"><img src="../sunnyside agency/images/icon-facebook.svg"></a></li>
+<li><a href="#"><img src="../sunnyside agency/images/icon-instagram.svg"></a></li>
+<li><a href="#"><img src="../sunnyside agency/images/icon-pinterest.svg"></a></li>
+<li><a href="#"><img src="../sunnyside agency/images/icon-twitter.svg"></a></li>
+</ul>
+	 </nav>
+	 </div>
+	 </footer>
+	
+<script type="text/javascript">
+ function togglebtn(){
+ const togglebtn = document.querySelector('.togglebtn');
+ togglebtn.classList.toggle('active');
+ const headmenu = document.querySelector('.head_menu');
+ headmenu.classList.toggle('active');
+ const logo = document.querySelector('.logo');
+ logo.classList.toggle('active');
+}
+
+$('#navList li a').click(function(){
+$('#navList').removeClass('togglebtn active');
+});
+
+</script>	
+	
+</body>
+  </html>
